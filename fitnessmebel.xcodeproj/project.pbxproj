@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190041841BD1C3C600D2A249 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 190041831BD1C3C600D2A249 /* main.m */; };
+		190041871BD1C3C600D2A249 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 190041861BD1C3C600D2A249 /* AppDelegate.m */; };
+		1900418D1BD1C3C600D2A249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1900418B1BD1C3C600D2A249 /* Main.storyboard */; };
+		190041901BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1900418E1BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld */; };
+		190041921BD1C3C600D2A249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190041911BD1C3C600D2A249 /* Assets.xcassets */; };
+		190041951BD1C3C600D2A249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190041931BD1C3C600D2A249 /* LaunchScreen.storyboard */; };
+		818ABD95200EDC48E1AB11DF /* libPods-fitnessmebel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8811BF61947A0087FFA71F4E /* libPods-fitnessmebel.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1900417F1BD1C3C600D2A249 /* fitnessmebel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitnessmebel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		190041831BD1C3C600D2A249 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		190041851BD1C3C600D2A249 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		190041861BD1C3C600D2A249 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1900418C1BD1C3C600D2A249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1900418F1BD1C3C600D2A249 /* fitnessmebel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fitnessmebel.xcdatamodel; sourceTree = "<group>"; };
+		190041911BD1C3C600D2A249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		190041941BD1C3C600D2A249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		190041961BD1C3C600D2A249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8811BF61947A0087FFA71F4E /* libPods-fitnessmebel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fitnessmebel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37071A8D2B9EA243A26566E /* Pods-fitnessmebel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fitnessmebel.release.xcconfig"; path = "Pods/Target Support Files/Pods-fitnessmebel/Pods-fitnessmebel.release.xcconfig"; sourceTree = "<group>"; };
+		B5E561D7E4B518FC6138EF1D /* Pods-fitnessmebel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fitnessmebel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fitnessmebel/Pods-fitnessmebel.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1900417C1BD1C3C600D2A249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818ABD95200EDC48E1AB11DF /* libPods-fitnessmebel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190041761BD1C3C600D2A249 = {
+			isa = PBXGroup;
+			children = (
+				190041811BD1C3C600D2A249 /* fitnessmebel */,
+				190041801BD1C3C600D2A249 /* Products */,
+				EDBAEFF22DEE0B95572A262E /* Pods */,
+				FF231720829727401A3F41FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		190041801BD1C3C600D2A249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1900417F1BD1C3C600D2A249 /* fitnessmebel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		190041811BD1C3C600D2A249 /* fitnessmebel */ = {
+			isa = PBXGroup;
+			children = (
+				1900419E1BD1C56500D2A249 /* Models */,
+				1900419D1BD1C55400D2A249 /* Views */,
+				1900419C1BD1C54400D2A249 /* Controllers */,
+				190041851BD1C3C600D2A249 /* AppDelegate.h */,
+				190041861BD1C3C600D2A249 /* AppDelegate.m */,
+				1900418B1BD1C3C600D2A249 /* Main.storyboard */,
+				190041911BD1C3C600D2A249 /* Assets.xcassets */,
+				190041931BD1C3C600D2A249 /* LaunchScreen.storyboard */,
+				190041961BD1C3C600D2A249 /* Info.plist */,
+				1900418E1BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld */,
+				190041821BD1C3C600D2A249 /* Supporting Files */,
+			);
+			path = fitnessmebel;
+			sourceTree = "<group>";
+		};
+		190041821BD1C3C600D2A249 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				190041831BD1C3C600D2A249 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1900419C1BD1C54400D2A249 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1900419D1BD1C55400D2A249 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1900419E1BD1C56500D2A249 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EDBAEFF22DEE0B95572A262E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5E561D7E4B518FC6138EF1D /* Pods-fitnessmebel.debug.xcconfig */,
+				A37071A8D2B9EA243A26566E /* Pods-fitnessmebel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF231720829727401A3F41FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8811BF61947A0087FFA71F4E /* libPods-fitnessmebel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1900417E1BD1C3C600D2A249 /* fitnessmebel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190041991BD1C3C600D2A249 /* Build configuration list for PBXNativeTarget "fitnessmebel" */;
+			buildPhases = (
+				736D79E7A793F4CCBE3E457C /* [CP] Check Pods Manifest.lock */,
+				1900417B1BD1C3C600D2A249 /* Sources */,
+				1900417C1BD1C3C600D2A249 /* Frameworks */,
+				1900417D1BD1C3C600D2A249 /* Resources */,
+				62AE0203E574529FBBBEC58A /* [CP] Embed Pods Frameworks */,
+				CF95B003902F38D89ACC3A4D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fitnessmebel;
+			productName = fitnessmebel;
+			productReference = 1900417F1BD1C3C600D2A249 /* fitnessmebel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		190041771BD1C3C600D2A249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "I.T. Pulse";
+				TargetAttributes = {
+					1900417E1BD1C3C600D2A249 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 1900417A1BD1C3C600D2A249 /* Build configuration list for PBXProject "fitnessmebel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 190041761BD1C3C600D2A249;
+			productRefGroup = 190041801BD1C3C600D2A249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1900417E1BD1C3C600D2A249 /* fitnessmebel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1900417D1BD1C3C600D2A249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190041951BD1C3C600D2A249 /* LaunchScreen.storyboard in Resources */,
+				190041921BD1C3C600D2A249 /* Assets.xcassets in Resources */,
+				1900418D1BD1C3C600D2A249 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62AE0203E574529FBBBEC58A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fitnessmebel/Pods-fitnessmebel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		736D79E7A793F4CCBE3E457C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF95B003902F38D89ACC3A4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fitnessmebel/Pods-fitnessmebel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1900417B1BD1C3C600D2A249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190041871BD1C3C600D2A249 /* AppDelegate.m in Sources */,
+				190041901BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld in Sources */,
+				190041841BD1C3C600D2A249 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1900418B1BD1C3C600D2A249 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1900418C1BD1C3C600D2A249 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		190041931BD1C3C600D2A249 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190041941BD1C3C600D2A249 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		190041971BD1C3C600D2A249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		190041981BD1C3C600D2A249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1900419A1BD1C3C600D2A249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E561D7E4B518FC6138EF1D /* Pods-fitnessmebel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fitnessmebel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.pulse.fitnessmebel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1900419B1BD1C3C600D2A249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A37071A8D2B9EA243A26566E /* Pods-fitnessmebel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fitnessmebel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.it.pulse.fitnessmebel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1900417A1BD1C3C600D2A249 /* Build configuration list for PBXProject "fitnessmebel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190041971BD1C3C600D2A249 /* Debug */,
+				190041981BD1C3C600D2A249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190041991BD1C3C600D2A249 /* Build configuration list for PBXNativeTarget "fitnessmebel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1900419A1BD1C3C600D2A249 /* Debug */,
+				1900419B1BD1C3C600D2A249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1900418E1BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1900418F1BD1C3C600D2A249 /* fitnessmebel.xcdatamodel */,
+			);
+			currentVersion = 1900418F1BD1C3C600D2A249 /* fitnessmebel.xcdatamodel */;
+			path = fitnessmebel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 190041771BD1C3C600D2A249 /* Project object */;
+}
