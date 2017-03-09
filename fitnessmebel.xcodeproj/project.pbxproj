@@ -13,6 +13,7 @@
 		190041901BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1900418E1BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld */; };
 		190041921BD1C3C600D2A249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190041911BD1C3C600D2A249 /* Assets.xcassets */; };
 		190041951BD1C3C600D2A249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190041931BD1C3C600D2A249 /* LaunchScreen.storyboard */; };
+		19E69C511E71B7CF00DD79FE /* AVMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69C501E71B7CF00DD79FE /* AVMenuTableViewController.m */; };
 		818ABD95200EDC48E1AB11DF /* libPods-fitnessmebel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8811BF61947A0087FFA71F4E /* libPods-fitnessmebel.a */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 		190041911BD1C3C600D2A249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190041941BD1C3C600D2A249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190041961BD1C3C600D2A249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E69C4F1E71B7CF00DD79FE /* AVMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVMenuTableViewController.h; sourceTree = "<group>"; };
+		19E69C501E71B7CF00DD79FE /* AVMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVMenuTableViewController.m; sourceTree = "<group>"; };
 		8811BF61947A0087FFA71F4E /* libPods-fitnessmebel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fitnessmebel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37071A8D2B9EA243A26566E /* Pods-fitnessmebel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fitnessmebel.release.xcconfig"; path = "Pods/Target Support Files/Pods-fitnessmebel/Pods-fitnessmebel.release.xcconfig"; sourceTree = "<group>"; };
 		B5E561D7E4B518FC6138EF1D /* Pods-fitnessmebel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fitnessmebel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fitnessmebel/Pods-fitnessmebel.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 		1900419C1BD1C54400D2A249 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				19E69C4F1E71B7CF00DD79FE /* AVMenuTableViewController.h */,
+				19E69C501E71B7CF00DD79FE /* AVMenuTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				190041871BD1C3C600D2A249 /* AppDelegate.m in Sources */,
+				19E69C511E71B7CF00DD79FE /* AVMenuTableViewController.m in Sources */,
 				190041901BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld in Sources */,
 				190041841BD1C3C600D2A249 /* main.m in Sources */,
 			);
