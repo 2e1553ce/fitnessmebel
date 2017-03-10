@@ -17,8 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //self.menuItems = [NSArray alloc] initWithObjects:@"Шкафы для раздевалок", nil
-    
+    self.menuItems = [[NSArray alloc] initWithObjects:
+                      @"Шкафы для раздевалок",
+                      @"Скамейки для раздевалок",
+                      @"Стойки и ресепшн",
+                      @"Замки и аксессуары",
+                      @"Дополнительное оборудование",
+                      @"Цвета и фактуры",
+                      @"Галерея",
+                      @"Контакты",
+                      nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,13 +37,11 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 1;
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 1;
+    return [self.menuItems count];
 }
 
 
