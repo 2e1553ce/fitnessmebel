@@ -10,4 +10,6 @@
 
 @interface AVMenuTableViewController : UITableViewController
 
+@property (strong, nonatomic) NSArray *menuItems;
+
 @end
