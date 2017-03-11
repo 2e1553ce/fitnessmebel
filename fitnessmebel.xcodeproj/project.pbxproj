@@ -12,7 +12,9 @@
 		190041901BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1900418E1BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld */; };
 		190041921BD1C3C600D2A249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190041911BD1C3C600D2A249 /* Assets.xcassets */; };
 		190041951BD1C3C600D2A249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190041931BD1C3C600D2A249 /* LaunchScreen.storyboard */; };
-		19585FFB1E72D3690088C7F9 /* AVMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19585FFA1E72D3690088C7F9 /* AVMenuCell.m */; };
+		19585FFB1E72D3690088C7F9 /* AVDetailedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19585FFA1E72D3690088C7F9 /* AVDetailedCell.m */; };
+		19585FFE1E7494270088C7F9 /* AVMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19585FFD1E7494270088C7F9 /* AVMenuCell.m */; };
+		195860011E7498830088C7F9 /* face-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 195860001E7498830088C7F9 /* face-4.jpg */; };
 		19E69C511E71B7CF00DD79FE /* AVMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69C501E71B7CF00DD79FE /* AVMenuTableViewController.m */; };
 		818ABD95200EDC48E1AB11DF /* libPods-fitnessmebel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8811BF61947A0087FFA71F4E /* libPods-fitnessmebel.a */; };
 /* End PBXBuildFile section */
@@ -26,8 +28,11 @@
 		190041911BD1C3C600D2A249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190041941BD1C3C600D2A249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190041961BD1C3C600D2A249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19585FF91E72D3690088C7F9 /* AVMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVMenuCell.h; sourceTree = "<group>"; };
-		19585FFA1E72D3690088C7F9 /* AVMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVMenuCell.m; sourceTree = "<group>"; };
+		19585FF91E72D3690088C7F9 /* AVDetailedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVDetailedCell.h; sourceTree = "<group>"; };
+		19585FFA1E72D3690088C7F9 /* AVDetailedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVDetailedCell.m; sourceTree = "<group>"; };
+		19585FFC1E7494270088C7F9 /* AVMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVMenuCell.h; sourceTree = "<group>"; };
+		19585FFD1E7494270088C7F9 /* AVMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVMenuCell.m; sourceTree = "<group>"; };
+		195860001E7498830088C7F9 /* face-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "face-4.jpg"; sourceTree = "<group>"; };
 		19E69C4F1E71B7CF00DD79FE /* AVMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVMenuTableViewController.h; sourceTree = "<group>"; };
 		19E69C501E71B7CF00DD79FE /* AVMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVMenuTableViewController.m; sourceTree = "<group>"; };
 		8811BF61947A0087FFA71F4E /* libPods-fitnessmebel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fitnessmebel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +83,7 @@
 				190041931BD1C3C600D2A249 /* LaunchScreen.storyboard */,
 				190041961BD1C3C600D2A249 /* Info.plist */,
 				1900418E1BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld */,
+				19585FFF1E7498670088C7F9 /* images */,
 				190041821BD1C3C600D2A249 /* Supporting Files */,
 			);
 			path = fitnessmebel;
@@ -117,10 +123,20 @@
 		19585FF81E72D3420088C7F9 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				19585FF91E72D3690088C7F9 /* AVMenuCell.h */,
-				19585FFA1E72D3690088C7F9 /* AVMenuCell.m */,
+				19585FF91E72D3690088C7F9 /* AVDetailedCell.h */,
+				19585FFA1E72D3690088C7F9 /* AVDetailedCell.m */,
+				19585FFC1E7494270088C7F9 /* AVMenuCell.h */,
+				19585FFD1E7494270088C7F9 /* AVMenuCell.m */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		19585FFF1E7498670088C7F9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				195860001E7498830088C7F9 /* face-4.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 		EDBAEFF22DEE0B95572A262E /* Pods */ = {
@@ -202,6 +218,7 @@
 			files = (
 				190041951BD1C3C600D2A249 /* LaunchScreen.storyboard in Resources */,
 				190041921BD1C3C600D2A249 /* Assets.xcassets in Resources */,
+				195860011E7498830088C7F9 /* face-4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +280,9 @@
 				190041871BD1C3C600D2A249 /* AppDelegate.m in Sources */,
 				19E69C511E71B7CF00DD79FE /* AVMenuTableViewController.m in Sources */,
 				190041901BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld in Sources */,
-				19585FFB1E72D3690088C7F9 /* AVMenuCell.m in Sources */,
+				19585FFB1E72D3690088C7F9 /* AVDetailedCell.m in Sources */,
 				190041841BD1C3C600D2A249 /* main.m in Sources */,
+				19585FFE1E7494270088C7F9 /* AVMenuCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

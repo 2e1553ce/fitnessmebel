@@ -8,6 +8,8 @@
 
 #import "AVMenuTableViewController.h"
 
+#import "AVMenuCell.h"
+
 @interface AVMenuTableViewController ()
 
 @end
@@ -34,10 +36,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
+#pragma mark - UITableViewDataSource
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -46,13 +48,22 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIdentifier"];
+    AVMenuCell *cell = [tableView dequeueReusableCellWithIdentifier:@"menuCell"];
     if(!cell)
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"reuseIdentifier"];
+        cell = [[AVMenuCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"menuCell"];
+    
+    cell.iconImageView.image = [UIImage imageNamed:@"face-4.jpg"];
+    cell.menuItemLabel.text = [self.menuItems objectAtIndex: indexPath.row];
     
     return cell;
 }
 
+#pragma mark - UITableViewDelegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    return 100.f;
+}
 
 /*
 // Override to support conditional editing of the table view.
