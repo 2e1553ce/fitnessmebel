@@ -31,11 +31,11 @@
         // Masonry
         [self.iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
             
-            make.height.equalTo(@(80));
-            make.width.equalTo(@(50));
+            make.height.equalTo(@(60));
+            make.width.equalTo(@(60));
             
-            make.centerY.equalTo(@((superview.center.y / 2) - 10)); // cell height 100, imageView 80, +- 10 a top/bot
-            make.left.equalTo(superview).with.offset(5);
+            make.centerY.equalTo(@((superview.center.y / 2) - 10)); // cell height 100, imageView 60, +- 10 a top/bot
+            make.left.equalTo(superview).with.offset(10);
         }];
         
         [self.menuItemLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -44,7 +44,7 @@
             
             make.centerY.equalTo(@((superview.center.y / 2) - 10));
             make.left.equalTo(self.iconImageView.mas_right).with.offset(5);
-            make.right.equalTo(superview).with.offset(5);
+            make.right.equalTo(superview).with.offset(10);
         }];
     }
     
