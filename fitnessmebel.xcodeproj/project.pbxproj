@@ -32,6 +32,7 @@
 		195860231E7585470088C7F9 /* shkafi.png in Resources */ = {isa = PBXBuildFile; fileRef = 195860121E7585470088C7F9 /* shkafi.png */; };
 		195860241E7585470088C7F9 /* skameiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 195860131E7585470088C7F9 /* skameiki.png */; };
 		195860281E7587970088C7F9 /* AVMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 195860271E7587970088C7F9 /* AVMenuItem.m */; };
+		1958602B1E76F1640088C7F9 /* AVRestKitObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1958602A1E76F1640088C7F9 /* AVRestKitObjectManager.m */; };
 		19E69C511E71B7CF00DD79FE /* AVMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69C501E71B7CF00DD79FE /* AVMenuTableViewController.m */; };
 		818ABD95200EDC48E1AB11DF /* libPods-fitnessmebel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8811BF61947A0087FFA71F4E /* libPods-fitnessmebel.a */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,8 @@
 		195860131E7585470088C7F9 /* skameiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skameiki.png; sourceTree = "<group>"; };
 		195860261E7587970088C7F9 /* AVMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVMenuItem.h; sourceTree = "<group>"; };
 		195860271E7587970088C7F9 /* AVMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVMenuItem.m; sourceTree = "<group>"; };
+		195860291E76F1640088C7F9 /* AVRestKitObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVRestKitObjectManager.h; sourceTree = "<group>"; };
+		1958602A1E76F1640088C7F9 /* AVRestKitObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVRestKitObjectManager.m; sourceTree = "<group>"; };
 		19E69C4F1E71B7CF00DD79FE /* AVMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVMenuTableViewController.h; sourceTree = "<group>"; };
 		19E69C501E71B7CF00DD79FE /* AVMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVMenuTableViewController.m; sourceTree = "<group>"; };
 		8811BF61947A0087FFA71F4E /* libPods-fitnessmebel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fitnessmebel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				195860251E7587720088C7F9 /* Menu models */,
+				195860291E76F1640088C7F9 /* AVRestKitObjectManager.h */,
+				1958602A1E76F1640088C7F9 /* AVRestKitObjectManager.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -365,6 +370,7 @@
 			files = (
 				190041871BD1C3C600D2A249 /* AppDelegate.m in Sources */,
 				19E69C511E71B7CF00DD79FE /* AVMenuTableViewController.m in Sources */,
+				1958602B1E76F1640088C7F9 /* AVRestKitObjectManager.m in Sources */,
 				190041901BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld in Sources */,
 				19585FFB1E72D3690088C7F9 /* AVDetailedCell.m in Sources */,
 				190041841BD1C3C600D2A249 /* main.m in Sources */,
