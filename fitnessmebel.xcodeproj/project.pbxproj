@@ -33,6 +33,10 @@
 		195860241E7585470088C7F9 /* skameiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 195860131E7585470088C7F9 /* skameiki.png */; };
 		195860281E7587970088C7F9 /* AVMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 195860271E7587970088C7F9 /* AVMenuItem.m */; };
 		1958602B1E76F1640088C7F9 /* AVRestKitObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1958602A1E76F1640088C7F9 /* AVRestKitObjectManager.m */; };
+		1958602E1E801BB80088C7F9 /* AVFurnitureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1958602D1E801BB80088C7F9 /* AVFurnitureTableViewController.m */; };
+		195860311E801C7E0088C7F9 /* AVGalleryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195860301E801C7E0088C7F9 /* AVGalleryCollectionViewController.m */; };
+		195860341E801C970088C7F9 /* AVColorsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195860331E801C970088C7F9 /* AVColorsCollectionViewController.m */; };
+		195860371E801CBD0088C7F9 /* AVContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195860361E801CBD0088C7F9 /* AVContactsViewController.m */; };
 		19E69C511E71B7CF00DD79FE /* AVMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E69C501E71B7CF00DD79FE /* AVMenuTableViewController.m */; };
 		818ABD95200EDC48E1AB11DF /* libPods-fitnessmebel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8811BF61947A0087FFA71F4E /* libPods-fitnessmebel.a */; };
 /* End PBXBuildFile section */
@@ -71,6 +75,15 @@
 		195860271E7587970088C7F9 /* AVMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVMenuItem.m; sourceTree = "<group>"; };
 		195860291E76F1640088C7F9 /* AVRestKitObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVRestKitObjectManager.h; sourceTree = "<group>"; };
 		1958602A1E76F1640088C7F9 /* AVRestKitObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVRestKitObjectManager.m; sourceTree = "<group>"; };
+		1958602C1E801BB80088C7F9 /* AVFurnitureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFurnitureTableViewController.h; sourceTree = "<group>"; };
+		1958602D1E801BB80088C7F9 /* AVFurnitureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFurnitureTableViewController.m; sourceTree = "<group>"; };
+		1958602F1E801C7E0088C7F9 /* AVGalleryCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVGalleryCollectionViewController.h; sourceTree = "<group>"; };
+		195860301E801C7E0088C7F9 /* AVGalleryCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVGalleryCollectionViewController.m; sourceTree = "<group>"; };
+		195860321E801C970088C7F9 /* AVColorsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVColorsCollectionViewController.h; sourceTree = "<group>"; };
+		195860331E801C970088C7F9 /* AVColorsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVColorsCollectionViewController.m; sourceTree = "<group>"; };
+		195860351E801CBD0088C7F9 /* AVContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVContactsViewController.h; sourceTree = "<group>"; };
+		195860361E801CBD0088C7F9 /* AVContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVContactsViewController.m; sourceTree = "<group>"; };
+		1958603A1E8026E40088C7F9 /* Fitnessmebel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fitnessmebel-Prefix.pch"; sourceTree = "<group>"; };
 		19E69C4F1E71B7CF00DD79FE /* AVMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVMenuTableViewController.h; sourceTree = "<group>"; };
 		19E69C501E71B7CF00DD79FE /* AVMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVMenuTableViewController.m; sourceTree = "<group>"; };
 		8811BF61947A0087FFA71F4E /* libPods-fitnessmebel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fitnessmebel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +124,7 @@
 		190041811BD1C3C600D2A249 /* fitnessmebel */ = {
 			isa = PBXGroup;
 			children = (
+				195860381E801D050088C7F9 /* RestKit Manager */,
 				19585FF81E72D3420088C7F9 /* Cells */,
 				1900419E1BD1C56500D2A249 /* Models */,
 				1900419D1BD1C55400D2A249 /* Views */,
@@ -131,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				190041831BD1C3C600D2A249 /* main.m */,
+				1958603A1E8026E40088C7F9 /* Fitnessmebel-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +155,14 @@
 			children = (
 				19E69C4F1E71B7CF00DD79FE /* AVMenuTableViewController.h */,
 				19E69C501E71B7CF00DD79FE /* AVMenuTableViewController.m */,
+				1958602C1E801BB80088C7F9 /* AVFurnitureTableViewController.h */,
+				1958602D1E801BB80088C7F9 /* AVFurnitureTableViewController.m */,
+				1958602F1E801C7E0088C7F9 /* AVGalleryCollectionViewController.h */,
+				195860301E801C7E0088C7F9 /* AVGalleryCollectionViewController.m */,
+				195860321E801C970088C7F9 /* AVColorsCollectionViewController.h */,
+				195860331E801C970088C7F9 /* AVColorsCollectionViewController.m */,
+				195860351E801CBD0088C7F9 /* AVContactsViewController.h */,
+				195860361E801CBD0088C7F9 /* AVContactsViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -155,8 +178,6 @@
 			isa = PBXGroup;
 			children = (
 				195860251E7587720088C7F9 /* Menu models */,
-				195860291E76F1640088C7F9 /* AVRestKitObjectManager.h */,
-				1958602A1E76F1640088C7F9 /* AVRestKitObjectManager.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -214,6 +235,15 @@
 			name = "Menu models";
 			sourceTree = "<group>";
 		};
+		195860381E801D050088C7F9 /* RestKit Manager */ = {
+			isa = PBXGroup;
+			children = (
+				195860291E76F1640088C7F9 /* AVRestKitObjectManager.h */,
+				1958602A1E76F1640088C7F9 /* AVRestKitObjectManager.m */,
+			);
+			name = "RestKit Manager";
+			sourceTree = "<group>";
+		};
 		EDBAEFF22DEE0B95572A262E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +295,7 @@
 				TargetAttributes = {
 					1900417E1BD1C3C600D2A249 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = Z48WYVF59J;
 					};
 				};
 			};
@@ -369,12 +400,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				190041871BD1C3C600D2A249 /* AppDelegate.m in Sources */,
+				1958602E1E801BB80088C7F9 /* AVFurnitureTableViewController.m in Sources */,
 				19E69C511E71B7CF00DD79FE /* AVMenuTableViewController.m in Sources */,
 				1958602B1E76F1640088C7F9 /* AVRestKitObjectManager.m in Sources */,
+				195860311E801C7E0088C7F9 /* AVGalleryCollectionViewController.m in Sources */,
 				190041901BD1C3C600D2A249 /* fitnessmebel.xcdatamodeld in Sources */,
 				19585FFB1E72D3690088C7F9 /* AVDetailedCell.m in Sources */,
 				190041841BD1C3C600D2A249 /* main.m in Sources */,
+				195860341E801C970088C7F9 /* AVColorsCollectionViewController.m in Sources */,
 				19585FFE1E7494270088C7F9 /* AVMenuCell.m in Sources */,
+				195860371E801CBD0088C7F9 /* AVContactsViewController.m in Sources */,
 				195860281E7587970088C7F9 /* AVMenuItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,7 +519,23 @@
 			baseConfigurationReference = B5E561D7E4B518FC6138EF1D /* Pods-fitnessmebel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z48WYVF59J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fitnessmebel/Fitnessmebel-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"/**",
+					"\"${PODS_ROOT}/Headers/Public/AMWaveTransition\"/**",
+					"\"${PODS_ROOT}/Headers/Public/ISO8601DateFormatterValueTransformer\"/**",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RKValueTransformers\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RestKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"/**",
+				);
 				INFOPLIST_FILE = fitnessmebel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.it.pulse.fitnessmebel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,7 +547,23 @@
 			baseConfigurationReference = A37071A8D2B9EA243A26566E /* Pods-fitnessmebel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z48WYVF59J;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fitnessmebel/Fitnessmebel-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"/**",
+					"\"${PODS_ROOT}/Headers/Public/AMWaveTransition\"/**",
+					"\"${PODS_ROOT}/Headers/Public/ISO8601DateFormatterValueTransformer\"/**",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RKValueTransformers\"/**",
+					"\"${PODS_ROOT}/Headers/Public/RestKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"/**",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"/**",
+				);
 				INFOPLIST_FILE = fitnessmebel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.it.pulse.fitnessmebel;
 				PRODUCT_NAME = "$(TARGET_NAME)";

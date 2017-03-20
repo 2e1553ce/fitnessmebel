@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <RestKit.h>
-#import <CoreData.h>
+#import <CoreData/CoreData.h>
+#import <RestKit/RestKit.h>
 
 @interface AVRestKitObjectManager : NSObject
 
@@ -26,6 +26,6 @@ andAttributeMappingsFromDictionary:(NSDictionary *)attributeMappings
 
 - (void)configureWithManagedObjectModel:(NSManagedObjectModel *)managedObjectModel;
 
-+ (GDMarvelRKObjectManager *)manager;
++ (AVRestKitObjectManager *)manager;
 
 @end

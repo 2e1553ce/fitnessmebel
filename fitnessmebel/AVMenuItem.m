@@ -10,12 +10,13 @@
 
 @implementation AVMenuItem
 
-- (id)initWithTitle:(NSString *)title imageName:(NSString *)imageName {
+- (id)initWithTitle:(NSString *)title imageName:(NSString *)imageName type:(NSInteger)itemType {
     
     if(self = [super init]) {
         
         self.title = title;
         self.imageName = imageName;
+        self.itemType = itemType;
     }
     
     return self;

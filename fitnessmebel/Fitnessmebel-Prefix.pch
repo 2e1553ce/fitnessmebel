@@ -1,0 +1,19 @@
+//
+//  Fitnessmebel-Prefix.pch
+//  fitnessmebel
+//
+//  Created by aiuar on 20.03.17.
+//  Copyright © 2017 I.T. Pulse. All rights reserved.
+//
+
+#ifndef Fitnessmebel_Prefix_pch
+#define Fitnessmebel_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Fitnessmebel_Prefix_pch */
+
+#define FITNESSMEBEL_BASEPOINT @"http://www.fitnessmebel.ru/"
+#define FITNESSMEBEL_API_PATH_PATTERN @"v1/api.php"
+#define FITNESSMEBEL_TOKEN @"95b93b8d7145c9269d860658c1fe902d"

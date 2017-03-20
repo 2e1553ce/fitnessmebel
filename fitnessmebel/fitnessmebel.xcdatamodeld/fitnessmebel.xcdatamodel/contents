@@ -1,19 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Accessory" representedClassName="Accessory" syncable="YES" codeGenerationType="class"/>
-    <entity name="Bench" representedClassName="Bench" syncable="YES" codeGenerationType="class"/>
-    <entity name="Cabin" representedClassName="Cabin" syncable="YES" codeGenerationType="class"/>
-    <entity name="Colors" representedClassName="Colors" syncable="YES" codeGenerationType="class"/>
-    <entity name="Gallery" representedClassName="Gallery" syncable="YES" codeGenerationType="class"/>
-    <entity name="OtherEquip" representedClassName="OtherEquip" syncable="YES" codeGenerationType="class"/>
-    <entity name="Reception" representedClassName="Reception" syncable="YES" codeGenerationType="class"/>
+    <entity name="Accessory" representedClassName="Accessory" syncable="YES" codeGenerationType="class">
+        <attribute name="innerID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="remoteID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sequence" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailFolderPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailURLPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Bench" representedClassName="Bench" syncable="YES" codeGenerationType="class">
+        <attribute name="innerID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="maxPrice" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="minPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="remoteID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sequence" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailFolderPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailURLPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Colors" representedClassName="Colors" syncable="YES" codeGenerationType="class">
+        <attribute name="catalog" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colorRGB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="innerID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="remoteID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sequence" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Furniture" representedClassName="Furniture" syncable="YES" codeGenerationType="class">
+        <attribute name="innerID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="maxPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="minPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="remoteID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sequence" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailFolderPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailURLPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Gallery" representedClassName="Gallery" syncable="YES" codeGenerationType="class">
+        <attribute name="furnitureID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="innerID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="remoteID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sequence" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="thumbnailFolderPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailURLPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
-        <element name="Cabin" positionX="-1017" positionY="-14733" width="128" height="43"/>
-        <element name="Bench" positionX="-873" positionY="-14733" width="128" height="45"/>
-        <element name="Reception" positionX="-729" positionY="-14733" width="128" height="45"/>
-        <element name="Colors" positionX="-299" positionY="-14733" width="128" height="45"/>
-        <element name="Gallery" positionX="-155" positionY="-14733" width="128" height="45"/>
-        <element name="Accessory" positionX="-443" positionY="-14733" width="128" height="45"/>
-        <element name="OtherEquip" positionX="-585" positionY="-14733" width="128" height="45"/>
+        <element name="Furniture" positionX="-1017" positionY="-14733" width="128" height="193"/>
+        <element name="Bench" positionX="-873" positionY="-14733" width="128" height="178"/>
+        <element name="Colors" positionX="-587" positionY="-14733" width="128" height="133"/>
+        <element name="Gallery" positionX="-443" positionY="-14733" width="128" height="148"/>
+        <element name="Accessory" positionX="-731" positionY="-14733" width="128" height="148"/>
     </elements>
 </model>

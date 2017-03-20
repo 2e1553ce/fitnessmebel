@@ -12,7 +12,8 @@
 
 @property (strong, nonatomic) NSString *title;
 @property (strong, nonatomic) NSString *imageName;
+@property (assign, nonatomic) NSInteger itemType;
 
-- (id)initWithTitle:(NSString *) title imageName:(NSString *) imageName;
+- (id)initWithTitle:(NSString *)title imageName:(NSString *)imageName type:(NSInteger)itemType;
 
 @end
