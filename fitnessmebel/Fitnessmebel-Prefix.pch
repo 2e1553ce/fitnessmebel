@@ -17,3 +17,5 @@
 #define FITNESSMEBEL_BASEPOINT @"http://www.fitnessmebel.ru/"
 #define FITNESSMEBEL_API_PATH_PATTERN @"v1/api.php"
 #define FITNESSMEBEL_TOKEN @"95b93b8d7145c9269d860658c1fe902d"
+
+#import "Categories.h"

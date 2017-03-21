@@ -1,5 +1,5 @@
 //
-//  AVDetailedCell.h
+//  AVFurnitureDetailedCell.h
 //  fitnessmebel
 //
 //  Created by aiuar on 10.03.17.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AVDetailedCell : UITableViewCell
+@interface AVFurnitureDetailedCell : UITableViewCell
 
 @property (strong, nonatomic) UIImageView *iconImageView;
 @property (strong, nonatomic) UILabel *iconLabel;

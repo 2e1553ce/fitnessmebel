@@ -10,4 +10,6 @@
 
 @interface AVFurnitureTableViewController : UITableViewController
 
+@property (assign, nonatomic) NSInteger type;
+
 @end

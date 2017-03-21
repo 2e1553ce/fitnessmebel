@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="Accessory" representedClassName="Accessory" syncable="YES" codeGenerationType="class">
         <attribute name="innerID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="remoteID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
@@ -50,10 +50,10 @@
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Furniture" positionX="-1017" positionY="-14733" width="128" height="193"/>
+        <element name="Accessory" positionX="-731" positionY="-14733" width="128" height="148"/>
         <element name="Bench" positionX="-873" positionY="-14733" width="128" height="178"/>
         <element name="Colors" positionX="-587" positionY="-14733" width="128" height="133"/>
+        <element name="Furniture" positionX="-1017" positionY="-14733" width="128" height="193"/>
         <element name="Gallery" positionX="-443" positionY="-14733" width="128" height="148"/>
-        <element name="Accessory" positionX="-731" positionY="-14733" width="128" height="148"/>
     </elements>
 </model>

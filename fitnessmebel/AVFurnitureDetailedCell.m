@@ -1,15 +1,15 @@
 //
-//  AVDetailedCell.m
+//  AVFurnitureDetailedCell.m
 //  fitnessmebel
 //
 //  Created by aiuar on 10.03.17.
 //  Copyright © 2017 I.T. Pulse. All rights reserved.
 //
 
-#import "AVDetailedCell.h"
+#import "AVFurnitureDetailedCell.h"
 #import <Masonry.h>
 
-@implementation AVDetailedCell
+@implementation AVFurnitureDetailedCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     

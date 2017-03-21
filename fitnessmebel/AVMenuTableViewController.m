@@ -86,27 +86,34 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    switch (((AVMenuItem *)[self.menuItemsArray objectAtIndex:indexPath.row]).itemType) {
+    NSInteger type = ((AVMenuItem *)[self.menuItemsArray objectAtIndex:indexPath.row]).itemType;
+    
+    switch (type) {
         // Furniture
         case 0:
         case 1:
         case 2:
         case 3:
-        case 4:
-            
-            
+        case 4: {
+            AVFurnitureTableViewController *vc = [[AVFurnitureTableViewController alloc] init];
+            vc.type = type;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
         // Colors
-        case 5:
+        case 5: {
             
+        }
             break;
         // Gallery
-        case 6:
+        case 6: {
             
+        }
             break;
         // Contacts
-        case 7:
+        case 7:{
             
+        }
             break;
             
         default:
