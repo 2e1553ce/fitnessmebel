@@ -26,4 +26,44 @@
 @dynamic title;
 @dynamic type;
 
+// Получает число всех
++ (NSInteger)allItemsCountWithContext:(NSManagedObjectContext *)managedObjectContext {
+    
+    NSUInteger retVal;
+    NSFetchRequest *request = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Furniture" inManagedObjectContext:managedObjectContext];
+    [request setEntity:entity];
+    NSError *err;
+    retVal = [managedObjectContext countForFetchRequest:request error:&err];
+    
+    if (err)
+        XLog(@"Error: %@", [err localizedDescription]);
+    
+    return retVal;
+
+}
+// Возвращает итем по его innerID.
++ (Furniture *)itemWithManagedObjectContext:(NSManagedObjectContext *)context andInnerID:(NSInteger)itemInnerID {
+    
+    Furniture *retVal = nil;
+    
+    NSFetchRequest *request = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Furniture" inManagedObjectContext:context];
+    [request setEntity:entity];
+    NSPredicate *searchFilter = [NSPredicate predicateWithFormat:@"innerID = %d", charInnerID];
+    [request setPredicate:searchFilter];
+    
+    NSError *err;
+    NSArray *results = [context executeFetchRequest:request error:&err];
+    if (results.count > 0)
+        retVal = [results objectAtIndex:0];
+    
+    if (err)
+        XLog(@"Error: %@", [err localizedDescription]);
+    
+    return retVal;
+
+}
+
+
 @end

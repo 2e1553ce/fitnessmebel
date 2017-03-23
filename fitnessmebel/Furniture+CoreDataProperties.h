@@ -16,16 +16,21 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSFetchRequest<Furniture *> *)fetchRequest;
 
-@property (nonatomic) int32_t innerID;
+@property (nonatomic) int64_t innerID;
 @property (nonatomic) double maxPrice;
 @property (nonatomic) double minPrice;
-@property (nonatomic) int32_t remoteID;
-@property (nonatomic) int32_t sequence;
+@property (nonatomic) int64_t remoteID;
+@property (nonatomic) int64_t sequence;
 @property (nullable, nonatomic, copy) NSString *text;
 @property (nullable, nonatomic, copy) NSString *thumbnailFolderPath;
 @property (nullable, nonatomic, copy) NSString *thumbnailURLPath;
 @property (nullable, nonatomic, copy) NSString *title;
 @property (nullable, nonatomic, copy) NSString *type;
+
+// Получает число всех
++ (NSInteger)allItemsCountWithContext:(NSManagedObjectContext *)managedObjectContext;
+// Возвращает итем по его innerID.
++ (Furniture *)itemWithManagedObjectContext:(NSManagedObjectContext *)context andInnerID:(NSInteger)itemInnerID;
 
 @end
 

@@ -16,11 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSFetchRequest<Bench *> *)fetchRequest;
 
-@property (nonatomic) int32_t innerID;
+@property (nonatomic) int64_t innerID;
 @property (nonatomic) double maxPrice;
 @property (nonatomic) double minPrice;
-@property (nonatomic) int32_t remoteID;
-@property (nonatomic) int32_t sequence;
+@property (nonatomic) int64_t remoteID;
+@property (nonatomic) int64_t sequence;
 @property (nullable, nonatomic, copy) NSString *text;
 @property (nullable, nonatomic, copy) NSString *thumbnailFolderPath;
 @property (nullable, nonatomic, copy) NSString *thumbnailURLPath;

@@ -18,9 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nullable, nonatomic, copy) NSString *catalog;
 @property (nullable, nonatomic, copy) NSString *colorRGB;
-@property (nonatomic) int32_t innerID;
-@property (nonatomic) int32_t remoteID;
-@property (nonatomic) int32_t sequence;
+@property (nonatomic) int64_t innerID;
+@property (nonatomic) int64_t remoteID;
+@property (nonatomic) int64_t sequence;
 @property (nullable, nonatomic, copy) NSString *title;
 
 @end
